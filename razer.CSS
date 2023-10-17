@@ -1,0 +1,616 @@
+.logo{
+    width: 35px;
+    margin-top: 7px;
+}
+.header{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.green_line{
+    position: sticky;
+    top: 55px;
+}
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+.header_box{
+    padding-left: 220px;
+    padding-right: 220px;
+    
+}
+.header_box ul{
+    display: grid;
+    grid-template-columns: 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09% 9.09%;
+    color: #888;;
+    list-style-type: none;
+    font-family: RazerF5,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    
+}
+.header_box ul li{
+    margin-top: 18px;
+    color: #868484;
+}
+.header_box ul i{
+    margin-top: 18px;
+}
+.header_two{
+    width: 100%;
+    height: 44px;
+    background-color: #555;
+}
+.headtwo_txt{
+    padding-left: 220px;
+    padding-right: 220px;
+    margin-left: 390px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    padding: 12px;
+}
+.big_box{
+    width: 100%;
+    height: 3815px;
+    background-color: #292a2b;
+}
+.box_1{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/oct-prime-day-homepage-desktop2x.webp");
+    width: 100%;
+    height: 660px;
+    background-size: 1870px;
+    background-position: center;
+}
+.txt_in_box_1{
+    padding-left: 425px;
+    padding-right: 425px;
+}
+.txt_in_box_1 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 50px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    padding-top: 48px
+}
+.txt_in_box_1 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    padding-left: 260px;
+    padding-top: 20px;
+    padding-bottom: 13px
+}
+.txt_in_box_1 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    padding-left: 340px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.box_2{
+    background-image: url("mercury-blade.webp"); 
+    width: 100%;
+    height: 700px;
+    background-size: 1920px;
+    background-position: center;
+    margin-top: 10px;
+}
+.txt_in_box_2{
+    padding-left: 425px;
+    padding-right: 425px;
+}
+.txt_in_box_2 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 50px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    padding-top: 48px
+}
+.txt_in_box_2 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    padding-left: 260px;
+    padding-top: 20px;
+    padding-bottom: 13px
+}
+.txt_in_box_2 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    padding-left: 245px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.box_3{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-fujin-homepage-desktop2x.webp");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: 1870px;
+    height: 660px;
+    margin-top: 11px;
+}
+.txt_in_box_3{
+    padding-left: 425px;
+    padding-right: 425px;
+}
+.txt_in_box_3 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 50px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    padding-top: 48px;
+    margin-left: 247px;
+}
+.txt_in_box_3 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 13px
+}
+.txt_in_box_3 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    padding-left: 304px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.bottom_grid_box{
+    width: 100%;
+    height: 1764.99px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50% 50%;
+    padding-top: 10px;
+}
+.bottom_grid_box div{
+    color: white;
+    
+    
+}
+.img_1{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-kitsune-sfv-950x580-desktop.webp");
+    background-position: center;
+    background-size: 900px;
+}
+.img_3{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-blade16-lamborghini-b-950x580-desktop.webp");
+    background-position: center;
+    background-size: 1010px;
+}
+.img_4{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/more-than-awareness-b-950x580-desktop.webp");
+    background-position: center;
+    background-size: 1000px;
+}
+.img_6{
+    background-image: url("https://assets2.razerzone.com/images/pnx.assets/b4f700532670d0f8bf3609a60d24bf8e/razer-esports-line-b-950x580-desktop.webp");
+    background-position: center;
+    background-size: 1000px;
+}
+.img_2{
+    background-image: url("\razer-blackwidow-v4-pro-950x580-desktop.webp");
+    background-position: center;
+    background-size: 1000px;
+}
+.img_5{
+    background-image: url("\razer-blade-14-2023-b-950x580-desktop.webp");
+    background-position: center;
+    background-size: 1000px;
+}
+.txt_in_img1{
+    padding-left: 240px;
+    padding-right: 150px;
+}
+.txt_in_img1 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    margin-left: 80px;
+    padding-top: 60px;
+}
+.txt_in_img1 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.txt_in_img1 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 120px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+.txt_in_img2{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+.txt_in_img2 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+}
+.txt_in_img2 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 76px;
+}
+.txt_in_img2 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 145px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+.txt_in_img2 button{
+    background-color: orange;
+    width: 90px;
+    height: 40px;
+    border-width: 0;
+    margin-left: 180px;
+    
+}
+.txt_in_img3{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+.txt_in_img3 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.txt_in_img3 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 76px;
+}
+.txt_in_img3 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 166px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+.txt_in_img3 button{
+    background-color: orange;
+    width: 90px;
+    height: 40px;
+    border-width: 0;
+    margin-left: 180px;
+    
+}
+
+.txt_in_img4{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+.txt_in_img4 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+.txt_in_img4 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 125px;
+}
+.txt_in_img4 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 190px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+
+.txt_in_img5{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+.txt_in_img5 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    margin-left: 45px;
+    padding-top: 20px;
+}
+.txt_in_img5 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 76px;
+}
+.txt_in_img5 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 145px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+
+.txt_in_img6{
+    padding-left: 200px;
+    padding-right: 150px;
+    padding-top: 20px;
+}
+.txt_in_img6 h2{
+    color: white;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-transform: none;
+    width: auto;
+    margin-left: 52px;
+    padding-top: 20px;
+}
+.txt_in_img6 h3{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 76px;
+}
+.txt_in_img6 a{
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-left: 200px;
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+
+.bottom_box{
+    width: 100%;
+    height: 412px;
+    background-color: black;
+}
+.bottom_box_contnt{
+    margin-left: 245.33px;
+    margin-right: 245.33px;
+    color: white;
+    padding-top: 40px;
+}
+.bottom_box_contnt{
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    
+}
+
+
+.column1 ul{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.column1 ul li{
+    padding-top: 15px;
+    
+}
+.column1 h4{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+}
+    
+
+.column2{
+    margin-left: -24px;
+}
+.column2 ul{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.column2 ul li{
+    padding-top: 15px;
+    
+}
+.column2 h4{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+
+.column3{
+    margin-left: -74px;
+}
+.column3 ul{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.column3 ul li{
+    padding-top: 15px;
+    
+}
+.column3 h4{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.column4{
+    margin-left: -74px;
+}
+.column4 ul{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.column4 ul li{
+    padding-top: 15px;
+    
+}
+.column4 h4{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+
+.column5{
+    margin-left: -84px;
+}
+.column5 h4{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    color: white;
+    font-weight: 100;
+}
+.column6{
+    margin-left: -33px;
+    font-family: RazerF5, Arial;
+    font-size: 14px;
+    color: rgb(15, 207, 73);
+}
+.line{
+    padding-left: 244.33px;
+    margin-right: 132px;
+    padding-top: 40px;
+
+}
+.final_bottom ul{
+    padding-left: 245.33px;
+    padding-right: 245.33px;
+    color: white;
+    display: grid;
+    grid-template-columns:  16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+.final_bottom ul{
+    list-style-type: none;
+    font-family: RazerF5,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    color: grey;
+    padding-top: 10px;
+}
+
+.hover_line:hover{
+    text-decoration: underline;
+}
+.header_box ul li:hover{
+    color: white;
+}
+
+.header_box ul i:hover{
+    color: white;
+}
+.column1 ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.column2 ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.column3 ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.column4 ul li:hover{
+    color: white;
+    text-decoration: underline;
+}
+.final_bottom ul li span:hover{
+    color: white;
+    text-decoration: underline;
+}
