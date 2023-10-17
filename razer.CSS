@@ -97,7 +97,7 @@
     text-decoration: none;
 }
 .box_2{
-    background-image: url("mercury-blade.webp"); 
+    background-image: url("pics/mercury-blade.webp"); 
     width: 100%;
     height: 700px;
     background-size: 1920px;
@@ -212,12 +212,12 @@
     background-size: 1000px;
 }
 .img_2{
-    background-image: url("\razer-blackwidow-v4-pro-950x580-desktop.webp");
+    background-image: url("pics/razer-blackwidow-v4-pro-950x580-desktop.webp");
     background-position: center;
     background-size: 1000px;
 }
 .img_5{
-    background-image: url("\razer-blade-14-2023-b-950x580-desktop.webp");
+    background-image: url("pics/razer-blade-14-2023-b-950x580-desktop.webp");
     background-position: center;
     background-size: 1000px;
 }
