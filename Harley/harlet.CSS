@@ -1,0 +1,394 @@
+.main_body{
+    padding: 0;
+    
+}
+.head1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(239, 235, 235);
+    align-items: center;
+}
+.head1 ul {
+    margin-right: 0;
+    margin-left: 900px;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head1 ul li{
+    display: inline;
+    padding: 20px;
+    font-family: tertiary-font,notosans-regular,sans-serif;
+    font-size: .75rem;
+    line-height: 1rem;
+    
+}
+.ind_img{
+    
+    width: 12px;
+    aspect-ratio: auto 12 / 12;
+    height: 12px
+}
+.head2{
+    width: 100%;
+    background-color: white;
+    height: 64px;
+    display: flex;
+    
+}
+.logo_img{
+    width: 62px;
+    margin-top: 5px;
+}
+.logg_img{
+    margin-left: 180px;
+}
+
+.head2_nav ul li{
+    display: inline-block;
+    padding: 7px;
+    color: #000;
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-size: 13px;
+    line-height: 1.3125rem;
+    letter-spacing: -0.09px;
+    padding: 0.75rem;
+    font-weight: 700;
+}
+.head2_nav ul{
+    margin-left: 2px;
+    padding: 13px;
+}
+.box1{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://www.harley-davidson.com/content/dam/h-d/images/promo-images/2023/tall-hero/h-d-x440-homepage-thd.jpg?impolicy=myresize&rw=1800");
+}
+.hd_text{
+    font-family: primary-font-heavy,notosans-bold,sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    
+}
+.text_descrp{
+    font-family: tertiary-font,notosans-regular,sans-serif;
+    color: white;
+    margin-top: 20px;
+    
+}
+.text_block{
+    margin-left: 121px;
+    padding: 2px;
+    padding-top: 64px;
+    
+}
+.click{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-width: 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: tertiary-font-bold,notosans-bold,sans-serif;
+    font-weight: 700;
+}
+.search_container{
+    text-align: center;
+    float: right;
+
+}
+.box2_small{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 254);
+    
+}
+.text_box2 ul{
+    
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 808px;
+    margin-left: 449px;
+    padding-top: 40px;
+}
+.box_3{
+    width: 100%;
+    height: 710px;
+    background-color: #e3e1e1;
+}
+.in_box3{
+    padding-left: 178px;
+    padding-right: 178px;
+}
+.in_box3 h1{
+    padding-top: 20px;
+    padding-left: 24px;
+    font-family: Primary-Font-Heavy;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.pic_box img{
+    width: 33%;
+    padding: 20px;
+}
+.box_4{
+    width: 100%;
+    height: 1850px;
+    background-color: white;
+}
+#search{
+    margin-left: 545px;
+    
+}
+.ser{
+    height: 40px;
+    width: 190px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+#user_icon{
+    width: 18px;
+    margin-top: 3px;
+}
+.text_sign{
+    margin-left: -9px;
+    font-weight: 400;
+    margin-top: -6px;
+}
+.head2_nav{
+    margin-top: -19px;
+}
+.img_decrp{
+    background-color: #e3e1e1;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    columns: 200px;
+}
+.img_dscrp1{
+    margin-left: 30px;
+}
+.img_dscrp1 p{
+    margin-top: 20px;
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-size: 16px;
+}
+.img_decrp h4{
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-weight: 900;
+    margin-top: -18px;
+}
+.stb_1{
+    padding-top: 38px;
+    font-weight: bolder;
+}
+
+.stb_2{
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.stb_3{
+    padding-top: 36px;
+    font-weight: bolder;
+}
+.in_box4{
+    padding-left: 178px;
+    padding-right: 178px;
+}
+.in_box4 h1{
+    font-family: Primary-Font-Heavy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container_in_box{
+    height: 2000px;
+}
+.two_image_box{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+
+}
+.two_image_box img{
+    width: 49%;
+    padding: 10px;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.image_descrp2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+}
+.one_img_descrp{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.one_img_descrp img{
+    width: 800px;
+}
+.img_rt_txt{
+    width: 800px;
+    margin-left: 143px;
+    margin-top: 120px;
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+}
+.hdh_txt{
+    margin-top: 4px;
+    
+}
+.hdh_dscrp{
+    margin-top: 20px;
+}
+.stb_2_3{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.hdh_date{
+    font-size: 1.0625rem;
+    line-height: 1.125rem;
+    color: rgb(156, 122, 81);
+}
+.three_img{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    
+}
+.three_img img{
+    width: 420px;
+}
+.img_dscrpt3{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+
+}
+.img_dscrpt3 h4{
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-weight: 900;
+}
+.img_dscrpt3 p{
+    margin-top: 20px;
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-size: 16px;
+}
+.std_33{
+    font-weight: bolder;
+}
+.final_box{
+    width: 100%;
+    height: 840px;
+    background-color: black;
+}
+.final_in_box{
+    padding-left: 200px;
+    padding-right: 80px;
+}
+.first_head_final{
+    color: white;
+    
+}
+.first_head_final h2{
+    padding: 56px;
+    margin-left: 57px;
+}
+.second_head_final{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 40px;
+    margin-left: 39px;
+}
+.second_head_final h4{
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    margin-bottom: 20px;
+    font-weight: 900;
+    margin-top: 23px;
+}
+.second_head_final h5{
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    margin-bottom: 12px;
+    font-weight: 100;
+}
+.bottom_head ul{
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 45px;
+    width: 930px;
+    margin-left: 40px;
+}
+.bottom_box{
+    display: flex;
+    flex-direction: row;
+    padding: 48px;
+    
+}
+.language{
+    width: 307px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: orangered;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+
+}
+.dsclmr{
+    margin-left: 40px;
+    font-size: 12px;
+    color: rgb(102, 102, 101);
+    font-family: secondary-font-bold,notosans-bold,sans-serif;
+}
+.socl_logo{
+    margin-left: 70px;
+}
+.fa-brands{
+    padding: 20px;
+    font-size: 25px;
+    padding: 9px;
+    
+}
+.hover_txt1:hover{
+    color: orangered;
+}
+.text_head2:hover{
+    text-decoration: underline;
+}
+.second_head_final div h5:hover{
+    text-decoration: underline;
+}
+.hvr-lin:hover{
+    text-decoration: underline;
+}
+.hover_txt:hover{
+    background-color: black;
+}
